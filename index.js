@@ -6,7 +6,7 @@ const http = require('http');
 let app = express();
 
 app.get('/', (req, res) => {
-    res.send("<style>html { font-family: sans-serif }</style>Heisann, dette er appen til LEAN😘");
+    res.send('<style>html { font-family: sans-serif }</style><iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>');
 });
 
 http.createServer(app).listen(5000, () => {
